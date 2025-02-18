@@ -1,6 +1,7 @@
 <script setup lang="ts">
     import { ref, computed } from "vue"
-    import { type TimelinePost, today, thisWeek, thisMonth } from "../posts"
+    import type { TimelinePost } from "../posts"
+    import { today, thisWeek, thisMonth } from "../posts"
     import { DateTime } from "luxon"  
     import TimelineItem from './TimelineItem.vue'  
 

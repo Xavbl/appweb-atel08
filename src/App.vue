@@ -1,7 +1,6 @@
 <script setup lang="ts">
   import Timeline from "././components/Timeline.vue"
   import "bootstrap"
-
 </script>
 
 <template>

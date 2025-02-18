@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import type { TimelinePost } from '../posts';
     
-    const props = defineProps<{post: TimelinePost}>()
+    //const props = 
+    defineProps<{post: TimelinePost}>()
 </script>
 <template>
     <li>
